@@ -1,3 +1,43 @@
-.h1{
-    background-color: yellow;
-}
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #f9a8d4, #fcd34d);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+      color: #ec4899;
+    }
+
+    button {
+      padding: 10px 25px;
+      font-size: 18px;
+      background-color: #f472b6;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #be185d;
+    }
