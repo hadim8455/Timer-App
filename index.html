@@ -7,12 +7,66 @@
     <title>Document</title>
 </head>
 <body>
+        <!-- <div class="heading">
+            <h1>STOP WATCH</h1>
+
+        </div>
+        
+        <div class="startContainer">
+    
+            <h1 id="starTimer">10</h1>
+            
+        </div>
+
+        <div class="startBtnContainer">
+            <button class="" onclick="startBtn()">Start Timer</button>
+
+        </div>
+    
+        <div class="stopBtncontainer">
+    
+            <h1 id="stopTimer">10</h1>
+           <button onclick="stopBtn()">Stop Timer</button>
+    
+        </div>
+    
+        <div class="resetBtncontainer">
+    
+            <h1 id="resetTimer">10</h1>
+           <button onclick="resetBtn()">Reset Timer</button>
+    
+        </div> -->
+
     <div class="container">
 
-        <h1 id="timer">10</h1>
-       <button onclick="startCountDown()">Start Timer</button>
+        <div class="card">
+            <div id="minHeading" class="number">00</div>
+            <p>Minutes</p>
+        </div>
+
+        <div class="card">
+            <div id="secHeading" class="number">00</div>
+            <p>Seconds</p>
+        </div>
+
+        <div class="card">
+            <div id="msecHeading" class="number">000</div>
+            <p>Milisecond</p>
+        </div>
 
     </div>
+
+    <div class="buttons">
+        <button id="startBtn" onclick="startTimer()">Start</button>
+        <button id="stopBtn" onclick="stopTimer()">Stop</button>
+        <button id="resetBtn" onclick="resetTimer()">Reset</button>
+    </div>
+
+    
+    <div class="stopWatch">
+        <button onclick="stopWatch()">Switch to Stopwatch</button>
+    </div>
+
     
 
 
